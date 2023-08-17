@@ -147,7 +147,7 @@ h2{
     display: flex;
     flex-flow: row;
     border-left: 5px solid #86cdea;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 2px 4px -1px gray;
 }
 .dash-2{
     border-left: 5px solid #3ec859;
