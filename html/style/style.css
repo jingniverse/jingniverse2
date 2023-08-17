@@ -1,0 +1,46 @@
+body #ccc #ddd{
+    color: red;
+}
+#ccc #ddd{
+    color: aqua;
+}
+b{
+    color: red;
+}
+h1>b{
+    color: green;
+}
+p>b{
+    color: blue;
+}
+h1 b{
+    color: aqua;
+}
+.a b{
+    color: violet
+}
+.a .bb{
+    color: brown;
+}
+#ccc .bb{
+    color: salmon;
+}
+p.c{
+    color: aqua; 
+    background: black;
+}
+strong{
+    color: red;
+}
+p strong{
+    color: blue;
+}
+.s1{
+    color: red;
+}
+p.p1 .s1{ 
+    color:burlywood
+}
+.p1 .s1{
+    color: magenta;
+}

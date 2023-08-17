@@ -1,0 +1,92 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-style: hidden;
+}
+
+.background{
+    background-color: #b2ccd6;
+    width: 1000px;
+    height: 1000px;
+
+}
+img{    width: 100px;    height: 80px;}
+.bigbox{    padding: 100px; width: 500px; height: 500px;  margin-left: auto;margin-right: auto;    
+}
+.bigbox h1{    font-size: 25px;   color: #1c4068;}
+.bigbox h2{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #1c4068;
+    display: inline-block;
+    margin-top: 25px;
+}
+.bigbox input[type=submit]{
+    background-color: #133761;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    border:0px ;
+   
+}
+.lastbox{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+table td{border-top: 1px solid #b2ccd6;border-color: #b2ccd6;color: #b2ccd6;}
+.radius{border: 0px solid #b2ccd6;   border-radius: 10px;   width: 600px;  height: 250px;   background-color: white;  font-weight: bold ;}   
+table th,td{    color: #b2ccd6;    font-size: 15px;    text-align: right; }
+table td:last-child,th:last-child{padding-right: 15px }
+p{color:black;text-align: left;margin-bottom: 0px;margin-top: 0px ;}
+td:last-child{color: #2f4f74;padding-right: 10px;} 
+span{float: left;}
+form{width: 600px;}
+th:last-child{padding-right: 15px;} 
+th{height: 30px;}
+tr:last-child{height: 30px;}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: chocolate;    
+}
+
+
+.btn:focus{
+    background-color: red
+}
+
+.btn:active{
+    background-color: brown;
+    border: 2px solid black;
+}
+.c-link{
+    text-decoration: none;
+    
+}
+.c-link:link{
+    color:yellow
+}
+.c-link:visited{
+    color: black
+}    
+
+@font-face{
+    font-family: '이쁜폰트';
+    src: url(NanumSquareAcB.woff);
+}
+
+.btn{
+    font-family: "이쁜폰트"
+    
+}
